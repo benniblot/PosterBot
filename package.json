@@ -1,0 +1,22 @@
+{
+  "name": "posterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "discord-api-types": "^0.37.15",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "number-to-words": "^1.2.4"
+  },
+  "devDependencies": {
+    "@types/number-to-words": "^1.2.1"
+  }
+}
