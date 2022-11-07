@@ -1,7 +1,7 @@
 {
     "bot_info": {
         "name": "PosterBot",
-        "version": "0.1.1"
+        "version": "0.1.5"
     },
     "inviteURL": "https://discord.com/api/oauth2/authorize?client_id=1036267220428410931&permissions=8&scope=bot%20applications.commands",
     "owner_id": "497740534828498950",
