@@ -3,3 +3,5 @@ fonts
 .env
 package-lock.json
 *.js
+.dockerignore
+Dockerfile

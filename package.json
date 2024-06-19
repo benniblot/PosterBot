@@ -1,16 +1,16 @@
 {
   "name": "posterbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord Bot that searches and creates poster that can be used for plex, etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsw -w",
+    "tsc": "tsc -w",
     "deploy-commands": "node deploy-commands.js",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "benniblot",
   "license": "ISC",
   "dependencies": {
     "canvas": "^2.10.2",

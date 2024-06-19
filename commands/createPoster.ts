@@ -96,7 +96,7 @@ module.exports = {
 				context.drawImage(frame, 0, 0, canvas.width, canvas.height);
 				
 				//TODO: fix font size when Header is too big (> (a lil bit unter 1000)
-				context.font = '76pt "Nunito Sans Black"'
+				context.font = '76pt "Nunito Sans"'
 				context.fillStyle = '#ffffff';
 				context.textAlign = 'center'
 				context.fillText(name, canvas.width * 0.5, 1348.46, context.measureText(name).width - 80);
@@ -104,7 +104,7 @@ module.exports = {
 				let subText = ''
 				if(textArray[seasonIndex] == 'Season'){
 					//TODO: fix font size when Sub-Text is too big (find a ratio to the upper one)
-					context.font = '35pt "Nunito Sans Black"'
+					context.font = '35pt "Nunito Sans"'
 					context.fillStyle = '#ffffff';
 					context.textAlign = 'center'
 					subText = `Season ${converter.toWords(textArray[seasonIndex+1].split('.')[0])}`.toUpperCase()
@@ -114,7 +114,7 @@ module.exports = {
 				let testString = textArray[textArray.length-1].split('.')[0]
 				if(testString == 'Collection' || testString == 'Specials'){
 					//TODO: fix font size when Sub-Text is too big (find a ratio to the upper one)
-					context.font = '35pt "Nunito Sans Black"'
+					context.font = '35pt "Nunito Sans"'
 					context.fillStyle = '#ffffff';
 					context.textAlign = 'center'
 					subText = testString.toUpperCase()
